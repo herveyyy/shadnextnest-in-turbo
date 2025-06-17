@@ -11,9 +11,13 @@ const pool = new Pool({
 });
 
 export const db = drizzle(pool, { schema });
+export type DB = typeof db;
 
 // Optional: Graceful shutdown for the pool
 process.on("beforeExit", async () => {
     await pool.end();
     console.log("PostgreSQL pool closed.");
 });
+export const coffees = schema.coffees;
+export const flavors = schema.flavors;
+export const coffeeFlavors = schema.coffeeFlavors;

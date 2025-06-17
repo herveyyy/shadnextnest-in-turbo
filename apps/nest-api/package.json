@@ -22,7 +22,7 @@
     "dev:studio": "pnpm exec drizzle-kit studio"
   },
   "dependencies": {
-    "drizzle-data": "workspace:*",
+    "@workspace/drizzle-data": "workspace:*",
     "@nestjs-cls/transactional": "^2.7.0",
     "@nestjs-cls/transactional-adapter-drizzle-orm": "^1.1.20",
     "@nestjs/common": "^11.1.3",

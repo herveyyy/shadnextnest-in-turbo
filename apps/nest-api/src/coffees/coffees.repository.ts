@@ -4,9 +4,9 @@ import {
   NotImplementedException,
 } from '@nestjs/common';
 import { eq } from 'drizzle-orm';
-import { DB } from 'src/db';
+import { DB, coffees } from '@workspace/drizzle-data';
 import { InjectDb } from 'src/db/db.provider';
-import { coffees } from 'src/db/schema';
+
 import { Coffee } from '../entities/coffee.entity';
 
 @Injectable()

@@ -5,9 +5,8 @@ import {
   NotImplementedException,
 } from '@nestjs/common';
 import { eq } from 'drizzle-orm';
-import { DB } from 'src/db';
+import { db, DB, flavors } from '@workspace/drizzle-data';
 import { InjectDb } from 'src/db/db.provider';
-import { flavors } from 'src/db/schema';
 import {
   CreateFlavorDto,
   Flavor,

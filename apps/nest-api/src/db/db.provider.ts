@@ -1,6 +1,5 @@
 import { Inject } from '@nestjs/common';
-import db from './index';
-
+import { db } from '@workspace/drizzle-data';
 export const DB_PROVIDER = 'postgresql';
 
 export const InjectDb = () => Inject(DB_PROVIDER);
