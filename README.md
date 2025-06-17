@@ -44,12 +44,6 @@ pnpm dlx shadcn@latest add [COMPONENT NAME]
 
 this will automatically add the component file to UI package.
 
-## Documentation
-
-- [Flowchart Documentation](https://docs.google.com/document/d/1usc2oNQn0pEZD5capyTYfdEeJiZ6fcillRRS8ZNB84M/edit?tab=t.0)
-- [OOP Backend Documentation](https://docs.google.com/document/d/1usc2oNQn0pEZD5capyTYfdEeJiZ6fcillRRS8ZNB84M/edit?tab=t.w7wyyadknu8n)
-- [ERD Documentation](https://docs.google.com/document/d/1usc2oNQn0pEZD5capyTYfdEeJiZ6fcillRRS8ZNB84M/edit?tab=t.u7shmnloj2vj)
-
 ## Authors
 
 - [@herveyyy](https://www.github.com/herveyyy)
